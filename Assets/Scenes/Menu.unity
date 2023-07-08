@@ -509,6 +509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdbd332a495f96446a4f274f0cc83ef1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNameInput: {fileID: 387709966}
+  bestScoreText: {fileID: 0}
 --- !u!1 &387709964
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +716,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9c6194efb779b1438e08cd58b97f9bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerName: 
+  bestScorePlayerName: 
+  bestScore: 0
 --- !u!4 &522549555
 Transform:
   m_ObjectHideFlags: 0
@@ -1433,8 +1438,8 @@ Camera:
   m_GameObject: {fileID: 1609189694}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 4
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
